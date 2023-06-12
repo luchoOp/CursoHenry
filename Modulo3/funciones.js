@@ -1,5 +1,7 @@
 function sumatres(x){
-    console.log(x + 3);
+    var a = x + 3;
+    console.log(a);
+    return a;
 }
 
 sumatres(5);
