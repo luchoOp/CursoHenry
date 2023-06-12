@@ -23,10 +23,13 @@ function Negacion (permiso){
 }
 negacion (false);
 
-function condicionCompleja (num){
-    if (num > 9 && num % 2 = 0 || num === 3){
+function condicionCompleja(num){
+    if (num > 9 && num % 2 == 0 || num === 3){
         return true;
-    }else{
+    }
+    else{
         return false;
     }
 }
+
+condicionCompleja(2);
